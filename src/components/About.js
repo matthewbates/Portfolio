@@ -1,4 +1,7 @@
 import React from "react";
+import { languages } from "./languages & skills/languages";
+import { databases } from "./languages & skills/databases";
+import { testing } from "./languages & skills/markups";
 
 export default function About() {
   return (
@@ -13,20 +16,17 @@ export default function About() {
               >
                 <div className="col-md-12">
                   <div className="about-desc">
-                    <span className="heading-meta">About</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
+                    <h2 className="colorlib-heading text-center">
+                      <u>Who Am I?</u>
+                    </h2>
                     <p>
-                      I am a computer grad student from DAIICT-Gandhinagar with
-                      ICT as my major.I love exploring new technologies and
-                      often amazed by the progress we as a human species have
-                      mad so far in the recent years (apart from the
-                      headphone-jack part!!)
+                      A passionate, full-stack software engineer residing in
+                      Manitou Springs, CO.
                     </p>
                     <p>
-                      I have started reflecting my ideas and thougths through
-                      the medium of words recently so spelling and grammer
-                      mistaks are very often.You can write me back if you spot
-                      any and don't want to live anymore :P{" "}
+                      A highly motivated, personable, & detail-oriented
+                      individual trained in many facets necessary to contribute
+                      to a modern, thriving business environment.
                     </p>
                   </div>
                 </div>
@@ -42,9 +42,8 @@ export default function About() {
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
-              <span className="heading-meta">What I do?</span>
-              <h2 className="colorlib-heading">
-                Here are some of my expertise
+              <h2 className="colorlib-heading text-center">
+                <u>Technical Skills</u>
               </h2>
             </div>
           </div>
@@ -52,80 +51,74 @@ export default function About() {
             <div className="col-md-4 text-center animate-box">
               <div className="services color-1">
                 <span className="icon">
-                  <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                  <h3>Web Development </h3>
-                  <p>
-                    I have experience building websites and chrome extentions
-                    using JavaScript,React,HTML,CSS
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-3">
-                <span className="icon">
-                  <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                  <h3>Data Structures & Algorithms</h3>
-                  <p>
-                    As coming from the CS background, I have good grasp over
-                    fundamental concepts of DSA
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-5">
-                <span className="icon">
                   <i className="icon-data" />
                 </span>
                 <div className="desc">
-                  <h3>Dev Ops</h3>
-                  <p>
-                    I am pursuing my internship with DevOps team at Juniper and
-                    working with tools like Jenkins, Docker, K8s
-                  </p>
+                  <div>
+                    <h3>Languages & Frameworks</h3>
+                    {languages.map((language) => {
+                      return (
+                        <span classname="image-icons">
+                          {" "}
+                          <img
+                            src={language.icon}
+                            alt="icon-images"
+                            width="60"
+                            height="50"
+                          />
+                        </span>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
-            {/*
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
+              <div className="services color-2">
                 <span className="icon">
-                    <i className="icon-data" />
+                  <i className="icon-database" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
+                  <h3>Database Managagement</h3>
+                  {databases.map((database) => {
+                    return (
+                      <span classname="image-icons">
+                        {" "}
+                        <img
+                          src={database.icon}
+                          alt="icon-images"
+                          width="70"
+                          height="50"
+                        />
+                      </span>
+                    );
+                  })}
                 </div>
-                </div>
+              </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
+              <div className="services color-4">
                 <span className="icon">
-                    <i className="icon-layers2" />
+                  <i className="icon-help" />
                 </span>
                 <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
+                  <h3>Testing & CI/CD</h3>
+                  {testing.map((test) => {
+                    return (
+                      <span classname="image-icons">
+                        {" "}
+                        <img
+                          src={test.icon}
+                          alt="icon-images"
+                          width="50"
+                          height="50"
+                        />
+                      </span>
+                    );
+                  })}
                 </div>
-                </div>
+              </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
-                </div>
-                </div>
-            </div>
-            */}
           </div>
         </div>
       </section>

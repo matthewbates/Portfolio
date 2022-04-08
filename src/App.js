@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About";
 import Introduction from "./components/Introduction";
+import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <div id="colorlib-main">
           <Introduction />
           <About />
+          <Projects />
         </div>
       </div>
     </div>

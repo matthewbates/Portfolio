@@ -22,3 +22,10 @@ code {
   width: 200px;
   background-color: black;
 }
+
+.image-icons {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
