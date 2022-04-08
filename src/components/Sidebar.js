@@ -61,11 +61,6 @@ export default function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#timeline" data-nav-section="blog">
-                    Blog
-                  </a>
-                </li>
-                <li>
                   <a href="#timeline" data-nav-section="contact">
                     Contact
                   </a>
@@ -73,7 +68,6 @@ export default function Sidebar() {
               </ul>
             </div>
           </nav>
-          <br />
           <nav id="colorlib-main-menu">
             <ul>
               <SocialIcon url="https://www.linkedin.com/in/matthew-bates-71b7bb79/" />{" "}

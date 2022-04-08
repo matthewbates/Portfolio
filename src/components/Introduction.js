@@ -23,7 +23,14 @@ export default function Introduction() {
                             rel="noopener noreferrer"
                           >
                             View CV
-                            <i className="icon-download4" />
+                          </a>{" "}
+                          <a
+                            className="btn btn-primary btn-learn"
+                            href="https://medium.com/me/stories/public"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            View Recent Blog Posts
                           </a>
                         </p>
                       </div>

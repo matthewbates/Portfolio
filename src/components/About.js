@@ -42,18 +42,18 @@ export default function About() {
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
-              <h2 className="colorlib-heading text-center">
+              <h2 className="colorlib-heading">
                 <u>Technical Skills</u>
               </h2>
             </div>
           </div>
           <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 animate-box">
               <div className="services color-1">
-                <span className="icon">
+                <span className="icon text-center">
                   <i className="icon-data" />
                 </span>
-                <div className="desc">
+                <div className="desc text-center">
                   <div>
                     <h3>Languages & Frameworks</h3>
                     {languages.map((language) => {
@@ -73,12 +73,12 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 animate-box">
               <div className="services color-2">
-                <span className="icon">
+                <span className="icon text-center">
                   <i className="icon-database" />
                 </span>
-                <div className="desc">
+                <div className="desc text-center">
                   <h3>Database Managagement</h3>
                   {databases.map((database) => {
                     return (
@@ -87,7 +87,7 @@ export default function About() {
                         <img
                           src={database.icon}
                           alt="icon-images"
-                          width="70"
+                          width="60"
                           height="50"
                         />
                       </span>
@@ -96,12 +96,12 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 animate-box">
               <div className="services color-4">
-                <span className="icon">
+                <span className="icon text-center">
                   <i className="icon-help" />
                 </span>
-                <div className="desc">
+                <div className="desc text-center">
                   <h3>Testing & CI/CD</h3>
                   {testing.map((test) => {
                     return (
