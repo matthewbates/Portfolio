@@ -42,7 +42,7 @@ export default function About() {
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
-              <h2 className="colorlib-heading">
+              <h2 className="colorlib-heading text-center">
                 <u>Technical Skills</u>
               </h2>
             </div>

@@ -2,17 +2,14 @@ import React, { useState } from "react";
 import { SocialIcon } from "react-social-icons";
 
 export default function Sidebar() {
-  const sidebarCollapsed = localStorage.getItem("sidebar-collapsed");
-  const [isExpanded, setIsExpanded] = useState(sidebarCollapsed ? false : true);
+  //   const sidebarCollapsed = localStorage.getItem("sidebar-collapsed");
+  //   const [isExpanded, setIsExpanded] = useState(sidebarCollapsed ? false : true);
+  const [darkMode, setDarkMode] = useState(false);
 
-  function handleToggler() {
-    if (isExpanded) {
-      setIsExpanded(false);
-      localStorage.setItem("sidebar-collapsed", true);
-      return;
-    }
-    setIsExpanded(true);
-    localStorage.removeItem("sidebar-collapsed");
+  function handleDarkMode() {
+    let element = document.body;
+    element.classList.toggle("dark");
+    setDarkMode((darkMode) => !darkMode);
   }
 
   return (
@@ -32,14 +29,22 @@ export default function Sidebar() {
           <div className="text-center">
             <div
               className="author-img"
-              style={{ backgroundImage: "url(images/about.jpg)" }}
+              placeholder="place image"
+              style={{ backgroundImage: "url(images/placeholder.jpg)" }}
             />
             <h1 id="colorlib-logo">
-              <a href="index.html">Matthew Bates</a>
+              <a>Matthew Bates</a>
             </h1>
-            <span className="email">
+            <span className="home">
+              <i className="icon-home text-dark"></i> Manitou Springs, CO
+            </span>
+            {/* <span className="email">
               <i className="icon-mail"></i> matthewhcbates@gmail.com
             </span>
+            <span className="phone">
+              <i className="icon-phone"></i> (713) 504-4436
+            </span> */}
+            <br />
             <br />
           </div>
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
@@ -56,12 +61,12 @@ export default function Sidebar() {
                   </a>
                 </li>
                 <li>
-                  <a href="#timeline" data-nav-section="projects">
+                  <a href="#projects" data-nav-section="projects">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#timeline" data-nav-section="contact">
+                  <a href="#contact" data-nav-section="contact">
                     Contact
                   </a>
                 </li>
@@ -76,6 +81,24 @@ export default function Sidebar() {
                 bgColor="#899499"
                 url="https://medium.com/me/stories/public"
               />
+            </ul>
+            <ul>
+              <br />
+              <div className="form-check form-switch">
+                <label
+                  className="form-check-label dark-mode-btn"
+                  type="checkbox"
+                  role="switch"
+                  form="flexSwitchCheckDefault"
+                ></label>
+                <input
+                  role="switch"
+                  className="form-check-input"
+                  onClick={handleDarkMode}
+                  type="checkbox"
+                  id="flexSwitchCheckDefault"
+                />
+              </div>
             </ul>
           </nav>
           <div className="colorlib-footer"></div>

@@ -27,7 +27,7 @@ export default function Introduction() {
                           <a
                             className="btn btn-primary btn-learn"
                             href="https://medium.com/me/stories/public"
-                            target="_blank"
+                            // target="_blank"
                             rel="noopener noreferrer"
                           >
                             View Recent Blog Posts
