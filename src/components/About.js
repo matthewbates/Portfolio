@@ -79,20 +79,22 @@ export default function About() {
                   <i className="icon-database" />
                 </span>
                 <div className="desc text-center">
-                  <h3>Database Managagement</h3>
-                  {databases.map((database) => {
-                    return (
-                      <span classname="image-icons">
-                        {" "}
-                        <img
-                          src={database.icon}
-                          alt="icon-images"
-                          width="60"
-                          height="50"
-                        />
-                      </span>
-                    );
-                  })}
+                  <div>
+                    <h3>Database Managagement</h3>
+                    {databases.map((database) => {
+                      return (
+                        <span classname="image-icons">
+                          {" "}
+                          <img
+                            src={database.icon}
+                            alt="icon-images"
+                            width="60"
+                            height="50"
+                          />
+                        </span>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,20 +104,22 @@ export default function About() {
                   <i className="icon-help" />
                 </span>
                 <div className="desc text-center">
-                  <h3>Testing & CI/CD</h3>
-                  {testing.map((test) => {
-                    return (
-                      <span classname="image-icons">
-                        {" "}
-                        <img
-                          src={test.icon}
-                          alt="icon-images"
-                          width="50"
-                          height="50"
-                        />
-                      </span>
-                    );
-                  })}
+                  <div>
+                    <h3>Testing & CI/CD</h3>
+                    {testing.map((test) => {
+                      return (
+                        <span classname="image-icons">
+                          {" "}
+                          <img
+                            src={test.icon}
+                            alt="icon-images"
+                            width="50"
+                            height="50"
+                          />
+                        </span>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
