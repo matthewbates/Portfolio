@@ -37,7 +37,7 @@ export default function Contact() {
     <div className="contact-information">
       <section className="colorlib-work" data-section="contact">
         <h3>Let's Get In Touch!</h3>
-        <Form onSubmit={handleSubmit}>
+        <Form className="form-input" onSubmit={handleSubmit}>
           <Form.Field
             id="form-input-control-email"
             control={Input}
@@ -64,8 +64,8 @@ export default function Contact() {
             label="Message"
             name="user_message"
             placeholder="Type your message here..."
-            className="icon-message"
             required
+            className="icon-message"
           />
           <br />
           <button color="green">Send Message</button>

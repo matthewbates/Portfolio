@@ -129,7 +129,11 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-
+            </div>
+            <div
+              className="col-md-4 animate-box"
+              data-animate-effect="fadeInLeft"
+            >
               <div
                 className="project"
                 style={{ backgroundImage: "url(images/pokedex.png)" }}

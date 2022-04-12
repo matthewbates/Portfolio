@@ -32,8 +32,7 @@ code {
 
 .contact-information {
   text-align: center;
-  max-width: 300px;
-  margin: 20px auto;
+  display: flex;
 }
 
 form {
@@ -59,10 +58,12 @@ form {
   text-align: center;
 }
 
-/* #colorlib-main {
-  background-color: #bababa;
+/* .form-input {
+  display: flex;
+  flex-direction: column;
 } */
 
-/* .row {
-  background-color: #bababa;
-} */
+.icon-message {
+  text-align: center;
+  flex-direction: column;
+}
