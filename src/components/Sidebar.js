@@ -30,7 +30,7 @@ export default function Sidebar() {
             <div
               className="author-img"
               placeholder="place image"
-              style={{ backgroundImage: "url(images/placeholder.jpg)" }}
+              style={{ backgroundImage: "url(images/sidebar.png)" }}
             />
             <h1 id="colorlib-logo">
               <a>Matthew Bates</a>
@@ -38,12 +38,10 @@ export default function Sidebar() {
             <span className="home">
               <i className="icon-home text-dark"></i> Manitou Springs, CO
             </span>
-            {/* <span className="email">
-              <i className="icon-mail"></i> matthewhcbates@gmail.com
-            </span>
+            <br />
             <span className="phone">
               <i className="icon-phone"></i> (713) 504-4436
-            </span> */}
+            </span>
             <br />
             <br />
           </div>
