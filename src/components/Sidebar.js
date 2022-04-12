@@ -77,7 +77,7 @@ export default function Sidebar() {
               <SocialIcon url="https://github.com/matthewbates" />{" "}
               <SocialIcon
                 bgColor="#899499"
-                url="https://medium.com/me/stories/public"
+                url="https://medium.com/@matthewhcbates"
               />
             </ul>
             <ul>
