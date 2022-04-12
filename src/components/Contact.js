@@ -47,6 +47,7 @@ export default function Contact() {
             required
             className="icon-mail"
           />
+          <br />
           <Form.Field
             id="form-input-control-last-name"
             control={Input}
@@ -56,6 +57,7 @@ export default function Contact() {
             required
             className="icon-user"
           />
+          <br />
           <Form.Field
             id="form-textarea-control-opinion"
             control={TextArea}
@@ -66,7 +68,7 @@ export default function Contact() {
             required
           />
           <br />
-          <Button color="green">Send Message</Button>
+          <button color="green">Send Message</button>
         </Form>
       </section>
     </div>

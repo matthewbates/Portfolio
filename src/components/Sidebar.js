@@ -84,7 +84,7 @@ export default function Sidebar() {
             </ul>
             <ul>
               <br />
-              <div className="form-check form-switch">
+              {/* <div className="form-check form-switch">
                 <label
                   className="form-check-label dark-mode-btn"
                   type="checkbox"
@@ -98,7 +98,7 @@ export default function Sidebar() {
                   type="checkbox"
                   id="flexSwitchCheckDefault"
                 />
-              </div>
+              </div> */}
             </ul>
           </nav>
           <div className="colorlib-footer"></div>
