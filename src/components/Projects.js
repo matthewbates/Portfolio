@@ -132,37 +132,38 @@ export default function Projects() {
               <div
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"
-              ></div>
-              <div
-                className="project"
-                style={{ backgroundImage: "url(images/pokedex.png)" }}
               >
-                <div className="desc">
-                  <div className="con text-center">
-                    <h3>
-                      <b>
-                        <a href="work.html">Pokédex</a>
-                      </b>
-                    </h3>
-                    <span>
-                      <b>
-                        <h3 style={{ color: "white" }}>
-                          <a
-                            href="https://github.com/matthewbates/Pokedex"
-                            style={{ color: "white" }}
-                          >
-                            Code
-                          </a>{" "}
-                          |{" "}
-                          <a
-                            href="https://vimeo.com/manage/videos/695859712"
-                            style={{ color: "white" }}
-                          >
-                            Demo
-                          </a>
-                        </h3>
-                      </b>
-                    </span>
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/pokedex.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con text-center">
+                      <h3>
+                        <b>
+                          <a href="work.html">Pokédex</a>
+                        </b>
+                      </h3>
+                      <span>
+                        <b>
+                          <h3 style={{ color: "white" }}>
+                            <a
+                              href="https://github.com/matthewbates/Pokedex"
+                              style={{ color: "white" }}
+                            >
+                              Code
+                            </a>{" "}
+                            |{" "}
+                            <a
+                              href="https://vimeo.com/manage/videos/695859712"
+                              style={{ color: "white" }}
+                            >
+                              Demo
+                            </a>
+                          </h3>
+                        </b>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -123,6 +123,31 @@ export default function About() {
                 </div>
               </div>
             </div>
+            {/* <div className="col-md-4 animate-box">
+              <div className="services color-4">
+                <span className="icon text-center">
+                  <i className="icon-help" />
+                </span>
+                <div className="desc text-center">
+                  <div>
+                    <h3>Testing & CI/CD</h3>
+                    {testing.map((test) => {
+                      return (
+                        <span className="image-icons">
+                          {" "}
+                          <img
+                            src={test.icon}
+                            alt="icon-images"
+                            width="50"
+                            height="50"
+                          />
+                        </span>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </section>
