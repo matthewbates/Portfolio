@@ -16,18 +16,27 @@ export default function About() {
               >
                 <div className="col-md-12">
                   <div className="about-desc">
-                    <h2 className="colorlib-heading text-center">
+                    <h2 className="colorlib-heading">
                       <u>Who Am I?</u>
                     </h2>
-                    <p>
-                      A passionate, full-stack software engineer residing in
-                      Manitou Springs, CO.
-                    </p>
+                    <p>Software engineer residing in Manitou Springs, CO.</p>
                     <p>
                       A highly motivated, personable, & detail-oriented
                       individual trained in many facets necessary to contribute
                       to a modern, thriving business environment.
                     </p>
+                    <p>
+                      I am religiously continuing to build on my knowledge of
+                      both front-end & back-end software languages & frameworks,
+                      including but not limited to:
+                      <br />
+                      <br />
+                      <b>·</b> JavaScript <br />
+                      <b>·</b> Ruby (& Rails) <br />
+                      <b>·</b> React.js <br />
+                      <b>·</b> TypeScript
+                    </p>
+                    <p>I would love to connect, whether it's an inquiry or a collaboration, so send me a message!</p>
                   </div>
                 </div>
               </div>
@@ -42,7 +51,7 @@ export default function About() {
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
-              <h2 className="colorlib-heading text-center">
+              <h2 className="colorlib-heading">
                 <u>Technical Skills</u>
               </h2>
             </div>
@@ -55,7 +64,7 @@ export default function About() {
                 </span>
                 <div className="desc text-center">
                   <div>
-                    <h3>Languages & Frameworks</h3>
+                    <h3>Database Managagement</h3>
                     {languages.map((language) => {
                       return (
                         <span classname="image-icons">

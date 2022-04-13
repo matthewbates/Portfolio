@@ -50,3 +50,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.slider-text-inner {
+  display: flex;
+}
+
+.intro-font-size {
+  font-size: 600px;
+}
