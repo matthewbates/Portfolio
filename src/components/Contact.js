@@ -42,7 +42,9 @@ export default function Contact() {
             <h2 className="text-center">Let's Get In Touch!</h2>
             <Form id="myForm" onSubmit={handleSubmit}>
               <div className="form-group">
-                <label for="email">Email address</label>
+                <label className="icon-mail" for="email">
+                  Email address
+                </label>
                 <input
                   type="email"
                   name="email"
@@ -52,7 +54,9 @@ export default function Contact() {
                 />
               </div>
               <div className="form-group">
-                <label for="name">Name</label>
+                <label className="icon-user" for="name">
+                  Name
+                </label>
                 <input
                   type="name"
                   name="name"
@@ -63,7 +67,9 @@ export default function Contact() {
               </div>
 
               <div className="form-group">
-                <label for="message">Message</label>
+                <label className="icon-message" for="message">
+                  Message
+                </label>
                 <textarea
                   className="form-control icon-message"
                   id="message"
