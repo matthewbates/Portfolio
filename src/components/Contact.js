@@ -47,7 +47,7 @@ export default function Contact() {
                 </label>
                 <input
                   type="email"
-                  name="email"
+                  name="user_email"
                   className="form-control icon-mail"
                   id="email"
                   placeholder="enter your email"
@@ -59,7 +59,7 @@ export default function Contact() {
                 </label>
                 <input
                   type="name"
-                  name="name"
+                  name="user_name"
                   className="form-control icon-user"
                   id="name"
                   placeholder="enter your name"
@@ -73,7 +73,7 @@ export default function Contact() {
                 <textarea
                   className="form-control icon-message"
                   id="message"
-                  name="message"
+                  name="user_message"
                   rows="5"
                   placeholder="your message"
                 ></textarea>

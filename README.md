@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+<h1>https://matthew-bates-portfolio.herokuapp.com/</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3>You've reached my personal portfolio page! Please feel free to reach out to me with inquiries/collaboriations.</h3>
 
-## Available Scripts
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div dir="auto">
+ <a href="https://medium.com/@matthewhcbates" rel="nofollow"><img src="https://camo.githubusercontent.com/950e8ecc2b6a148d19c05aa792debba83b0978fbd99e3116871c1492d989ae34/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d3041304130413f7374796c653d706c6173746963266c6f676f3d6d656469756d26636f6c6f72423d303030266c6162656c436f6c6f723d303030" alt="Medium" data-canonical-src="https://img.shields.io/badge/Medium-0A0A0A?style=plastic&amp;logo=medium&amp;colorB=000&amp;labelColor=000" style="max-width: 100%;"></a>
+ <a href="https://www.linkedin.com/in/matthew-bates-71b7bb79/" rel="nofollow"><img src="https://camo.githubusercontent.com/69a8b7d4e3be8d85c62e861998f8f6a7a68d255e92577d2aeab1bf91c688e6c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d626c61636b2e7376673f7374796c653d706c6173746963266c6f676f3d6c696e6b6564696e26636f6c6f72423d306136366332" alt="LinkedIn" data-canonical-src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&amp;logo=linkedin&amp;colorB=0a66c2" style="max-width: 100%;"></a>
+ <a href="https://www.codewars.com/users/matthewhcbates" rel="nofollow"><img src="https://camo.githubusercontent.com/b432c002a76d07905e48390a7849aaf585879e6ec5f008eacf12fbb3a1b151b6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d436f6465776172732d626c61636b2e7376673f7374796c653d706c6173746963266c6f676f3d636f64657761727326636f6c6f72423d423632313231266c6162656c436f6c6f723d646464266c6f676f436f6c6f723d42363231323126" alt="CodeWars" data-canonical-src="https://img.shields.io/badge/-Codewars-black.svg?style=plastic&amp;logo=codewars&amp;colorB=B62121&amp;labelColor=ddd&amp;logoColor=B62121&amp;" style="max-width: 100%;"></a>
+</div>
