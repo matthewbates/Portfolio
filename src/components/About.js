@@ -14,18 +14,13 @@ export default function About() {
                 <div className="col-md-12">
                   <div className="about-desc">
                     <h2 className="colorlib-heading">
-                      <u>Who Am I?</u>
+                      <u>About Me</u>
                     </h2>
-                    <p>Software engineer residing in Manitou Springs, CO.</p>
+                    <p>A software engineer residing in Manitou Springs, CO.</p>
                     <p>
-                      A highly motivated, personable, & detail-oriented
-                      individual trained in many facets necessary to contribute
-                      to a modern, thriving business environment.
-                    </p>
-                    <p>
-                      I am religiously continuing to build on my knowledge of
-                      both front-end & back-end software languages & frameworks,
-                      including but not limited to:
+                      Having decided to pivot my career last year and set my sights on the tech sector, I haven't looked back since. I'm a highly motivated, detail-oriented
+                      individual continuously building on my knowledge of front/back-end software languages & frameworks,
+                      including:
                       <br />
                       <br />
                       <b>·</b> JavaScript <br />
@@ -33,7 +28,8 @@ export default function About() {
                       <b>·</b> React.js <br />
                       <b>·</b> TypeScript
                     </p>
-                    <p>I would love to connect, whether it's an inquiry or a collaboration, so send me a message!</p>
+
+                    <p>Send me a message below - I'd love to connect!</p>
                   </div>
                 </div>
               </div>

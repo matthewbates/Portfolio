@@ -15,7 +15,7 @@ export default function Introduction() {
                     <div className="desc">
                       <div>
                         <h1>Hi, I'm Matthew.</h1>
-                        <h4>Creative · Passionate · Tenacious</h4>
+                        <h4>A creative, passionate technologist.</h4>
                         <p>
                           <a
                             className="btn btn-primary btn-learn"
