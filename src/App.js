@@ -11,11 +11,11 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   // handles dark mode switch
-  // function handleDarkMode() {
-  //   let element = document.body;
-  //   element.classList.toggle("dark");
-  //   setDarkMode((darkMode) => !darkMode);
-  // }
+  function darkModeToggle() {
+    let element = document.html;
+    element.classList.toggle("dark");
+    setDarkMode((darkMode) => !darkMode);
+  }
 
   return (
     <div id="colorlib-page">
