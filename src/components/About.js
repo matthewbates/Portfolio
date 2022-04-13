@@ -1,7 +1,4 @@
 import React from "react";
-import { languages } from "./languages & skills/languages";
-import { databases } from "./languages & skills/databases";
-import { testing } from "./languages & skills/markups";
 
 export default function About() {
   return (
@@ -44,7 +41,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="colorlib-about">
+      {/* <section className="colorlib-about">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div
@@ -132,34 +129,9 @@ export default function About() {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-4 animate-box">
-              <div className="services color-4">
-                <span className="icon text-center">
-                  <i className="icon-help" />
-                </span>
-                <div className="desc text-center">
-                  <div>
-                    <h3>Testing & CI/CD</h3>
-                    {testing.map((test) => {
-                      return (
-                        <span className="image-icons">
-                          {" "}
-                          <img
-                            src={test.icon}
-                            alt="icon-images"
-                            width="50"
-                            height="50"
-                          />
-                        </span>
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

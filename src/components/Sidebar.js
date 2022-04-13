@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { SocialIcon } from "react-social-icons";
 
 export default function Sidebar() {
-  //   const sidebarCollapsed = localStorage.getItem("sidebar-collapsed");
-  //   const [isExpanded, setIsExpanded] = useState(sidebarCollapsed ? false : true);
   const [darkMode, setDarkMode] = useState(false);
 
   function handleDarkMode() {
@@ -27,6 +25,7 @@ export default function Sidebar() {
         </nav>
         <aside id="colorlib-aside" className="border js-fullheight">
           <div className="text-center">
+            <br />
             <div
               className="author-img"
               placeholder="place image"
@@ -36,11 +35,15 @@ export default function Sidebar() {
               <a>Matthew Bates</a>
             </h1>
             <span className="home">
-              <i className="icon-home text-dark"></i> Manitou Springs, CO
+              <i className="icon-home"></i> Manitou Springs, CO
             </span>
             <br />
             <span className="phone">
               <i className="icon-phone"></i> (713) 504-4436
+            </span>
+            <br />
+            <span className="home">
+              <i className="icon-mail"></i> matthewhcbates@gmail.com
             </span>
             <br />
             <br />
@@ -56,6 +59,11 @@ export default function Sidebar() {
                 <li>
                   <a href="#about" data-nav-section="about">
                     About
+                  </a>
+                </li>
+                <li>
+                  <a href="#skills" data-nav-section="skills">
+                    Skills
                   </a>
                 </li>
                 <li>
@@ -82,21 +90,6 @@ export default function Sidebar() {
             </ul>
             <ul>
               <br />
-              {/* <div className="form-check form-switch">
-                <label
-                  className="form-check-label dark-mode-btn"
-                  type="checkbox"
-                  role="switch"
-                  form="flexSwitchCheckDefault"
-                ></label>
-                <input
-                  role="switch"
-                  className="form-check-input"
-                  onClick={handleDarkMode}
-                  type="checkbox"
-                  id="flexSwitchCheckDefault"
-                />
-              </div> */}
             </ul>
           </nav>
           <div className="colorlib-footer"></div>

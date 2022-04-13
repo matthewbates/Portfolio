@@ -1,27 +1,30 @@
 import "./App.css";
 import React, { useState } from "react";
 import About from "./components/About";
-import Introduction from "./components/Introduction";
 import Contact from "./components/Contact";
+import Introduction from "./components/Introduction";
 import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
+import Skills from "./components/Skills";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  function handleDarkMode() {
-    let element = document.body;
-    element.classList.toggle("dark");
-    setDarkMode((darkMode) => !darkMode);
-  }
+  // handles dark mode switch
+  // function handleDarkMode() {
+  //   let element = document.body;
+  //   element.classList.toggle("dark");
+  //   setDarkMode((darkMode) => !darkMode);
+  // }
 
   return (
     <div id="colorlib-page">
       <div id="container-wrap">
-        <Sidebar handleDarkMode={handleDarkMode} />
+        <Sidebar />
         <div id="colorlib-main">
           <Introduction />
           <About />
+          <Skills />
           <Projects />
           <Contact />
         </div>
