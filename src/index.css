@@ -35,11 +35,11 @@ code {
   display: flex;
 }
 
-form {
+/* form {
   border: 1px solid lightgray;
   border-radius: 10px;
   padding: 20px;
-}
+} */
 
 .dark {
   color: #dcdcdc;
@@ -58,12 +58,31 @@ form {
   text-align: center;
 }
 
-/* .form-input {
-  display: flex;
-  flex-direction: column;
-} */
-
 .icon-message {
   text-align: center;
   flex-direction: column;
+}
+
+.container {
+  /* filter: drop-shadow(-12px 14px 3px #ccc); */
+  text-align: center;
+  width: 40%;
+}
+
+#email {
+  filter: drop-shadow(-12px 14px 3px #ccc);
+  text-align: center;
+  width: 100%;
+}
+
+#name {
+  filter: drop-shadow(-12px 14px 3px #ccc);
+  text-align: center;
+  width: 100%;
+}
+
+#message {
+  filter: drop-shadow(-12px 14px 3px #ccc);
+  text-align: center;
+  width: 100%;
 }

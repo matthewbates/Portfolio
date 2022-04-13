@@ -34,10 +34,55 @@ export default function Contact() {
   }
 
   return (
-    <div className="contact-information">
-      <section className="colorlib-work" data-section="contact">
-        <h3>Let's Get In Touch!</h3>
-        <Form className="form-input" onSubmit={handleSubmit}>
+    // <div className="contact-information">
+    <section className="colorlib-work" data-section="contact">
+      <div className="container">
+        <div className="row">
+          <div className="col align-self-center">
+            <h2 className="text-center">Let's Get In Touch!</h2>
+            <Form id="myForm" onSubmit={handleSubmit}>
+              <div className="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  name="email"
+                  className="form-control icon-mail"
+                  id="email"
+                  placeholder="enter your email"
+                />
+              </div>
+              <div className="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="name"
+                  name="name"
+                  className="form-control icon-user"
+                  id="name"
+                  placeholder="enter your name"
+                />
+              </div>
+
+              <div className="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  className="form-control icon-message"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="your message"
+                ></textarea>
+              </div>
+
+              <Button type="submit" className="btn btn-primary">
+                Submit
+              </Button>
+            </Form>
+          </div>
+        </div>
+      </div>
+
+      {/* <h3>Let's Get In Touch!</h3>
+        <Form onSubmit={handleSubmit}>
           <Form.Field
             id="form-input-control-email"
             control={Input}
@@ -45,9 +90,10 @@ export default function Contact() {
             name="user_email"
             placeholder="Type your email here..."
             required
-            className="icon-mail"
+            icon="mail"
+            // className="icon-mail"
+            iconPosition="left"
           />
-          <br />
           <Form.Field
             id="form-input-control-last-name"
             control={Input}
@@ -55,9 +101,10 @@ export default function Contact() {
             name="user_name"
             placeholder="Type your name here..."
             required
-            className="icon-user"
+            icon="user circle"
+            iconPosition="left"
+            // className="icon-user"
           />
-          <br />
           <Form.Field
             id="form-textarea-control-opinion"
             control={TextArea}
@@ -65,12 +112,13 @@ export default function Contact() {
             name="user_message"
             placeholder="Type your message here..."
             required
-            className="icon-message"
+            // className="icon-message"
           />
-          <br />
-          <button color="green">Send Message</button>
-        </Form>
-      </section>
-    </div>
+          <Button label="Send Message" icon="send" color="green">
+            Send Message
+          </Button>
+        </Form> */}
+    </section>
+    // </div>
   );
 }
