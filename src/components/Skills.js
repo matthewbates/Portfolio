@@ -23,7 +23,7 @@ export default function Skills() {
                 </span>
                 <div className="desc text-center">
                   <div>
-                    <h3>Database Managagement</h3>
+                    <h3>Languages & Frameworks</h3>
                     {languages.map((language) => {
                       return (
                         <img
