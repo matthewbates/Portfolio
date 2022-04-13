@@ -26,15 +26,12 @@ export default function Skills() {
                     <h3>Database Managagement</h3>
                     {languages.map((language) => {
                       return (
-                        // <span classname="image-icons">
-                        //   {" "}
                         <img
                           src={language.icon}
                           alt="icon-images"
                           width="60"
                           height="50"
                         />
-                        // </span>
                       );
                     })}
                   </div>
@@ -51,15 +48,12 @@ export default function Skills() {
                     <h3>Database Managagement</h3>
                     {databases.map((database) => {
                       return (
-                        // <span classname="image-icons">
-                        //   {" "}
                         <img
                           src={database.icon}
                           alt="icon-images"
                           width="60"
                           height="50"
                         />
-                        // </span>
                       );
                     })}
                   </div>
@@ -76,15 +70,12 @@ export default function Skills() {
                     <h3>Testing & CI/CD</h3>
                     {testing.map((test) => {
                       return (
-                        // <span classname="image-icons">
-                        //   {" "}
                         <img
                           src={test.icon}
                           alt="icon-images"
                           width="50"
                           height="50"
                         />
-                        // </span>
                       );
                     })}
                   </div>
