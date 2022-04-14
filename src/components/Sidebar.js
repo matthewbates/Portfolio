@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { SocialIcon } from "react-social-icons";
+import codeWars from "../images/codewars.png";
+import medium from "../images/medium.png";
 
 export default function Sidebar() {
   const [darkMode, setDarkMode] = useState(false);
@@ -81,12 +83,41 @@ export default function Sidebar() {
           </nav>
           <nav id="colorlib-main-menu">
             <ul>
-              <SocialIcon url="https://www.linkedin.com/in/matthew-bates-71b7bb79/" />{" "}
-              <SocialIcon url="https://github.com/matthewbates" />{" "}
-              <SocialIcon
+              <li>
+                <SocialIcon
+                  url="https://www.linkedin.com/in/matthew-bates-71b7bb79/"
+                  target="_blank"
+                />{" "}
+                <a
+                  href="https://codewars.com/users/matthewhcbates"
+                  target="_blank"
+                  className="codewars"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="nav-icon-codewars"
+                    src={codeWars}
+                    alt="icon"
+                  />
+                </a>
+                <SocialIcon
+                  url="https://github.com/matthewbates"
+                  target="_blank"
+                />{" "}
+                <a
+                  href="https://medium.com/@matthewhcbates"
+                  target="_blank"
+                  className="nav-icon"
+                  rel="noopener noreferrer"
+                >
+                  <img className="nav-icon" src={medium} alt="icon" />
+                </a>
+                {/* <SocialIcon
                 bgColor="#899499"
                 url="https://medium.com/@matthewhcbates"
-              />
+                target="_blank"
+              /> */}
+              </li>
             </ul>
             <ul>
               <br />

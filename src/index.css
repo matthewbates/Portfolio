@@ -86,3 +86,21 @@ code {
   text-align: center;
   width: 100%;
 }
+
+.nav-icon {
+  opacity: 1;
+  transform: translate(0px, 0px);
+  padding: 2px;
+  height: 54px;
+}
+
+.nav-icon-codewars {
+  opacity: 1;
+  transform: translate(0px, 0px);
+  height: 37px;
+  padding: 2px;
+  height: 45px;
+  margin-right: 6px;
+  border-radius: 5px;
+  background-color: rgb(168, 51, 42);
+}
