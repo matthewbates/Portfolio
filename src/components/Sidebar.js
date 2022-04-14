@@ -83,7 +83,6 @@ export default function Sidebar() {
           </nav>
           <nav id="colorlib-main-menu">
             <ul>
-              <li>
                 <SocialIcon
                   url="https://www.linkedin.com/in/matthew-bates-71b7bb79/"
                   target="_blank"
@@ -117,7 +116,6 @@ export default function Sidebar() {
                 url="https://medium.com/@matthewhcbates"
                 target="_blank"
               /> */}
-              </li>
             </ul>
             <ul>
               <br />
