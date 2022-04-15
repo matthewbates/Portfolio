@@ -8,39 +8,50 @@ import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
 
+const firstName = "Matthew";
+const lastName = "Bates";
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 2000);
+  // });
+
   useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 5000);
+    document.title = firstName + " " + lastName;
   });
 
   return (
     <>
-      {isLoading === true ? (
+      {/* {isLoading == true ? (
         <div className="loading-icon">
           {" "}
           <Loading />
         </div>
-      ) : null}
+      ) : null} */}
 
-      <div id="colorlib-page" style={{ display: isLoading ? "none" : "block" }}>
-        <div
-          id="container-wrap"
-          style={{ display: isLoading ? "none" : "block" }}
-        >
-          <Sidebar />
+      <div 
+      // style={{ display: isLoading ? "none" : "block" }}
+      >
+        <div id="colorlib-page">
           <div
-            id="colorlib-main"
-            style={{ display: isLoading ? "none" : "block" }}
+            id="container-wrap"
+            // style={{ display: isLoading ? "none" : "block" }}
           >
-            <Introduction />
-            <About />
-            <Skills />
-            <Projects />
-            <Contact />
+            <Sidebar />
+            <div
+              id="colorlib-main"
+              // style={{ display: isLoading ? "none" : "block" }}
+            >
+              <Introduction />
+              <About />
+              <Skills />
+              <Projects />
+              <Contact />
+            </div>
           </div>
         </div>
       </div>
