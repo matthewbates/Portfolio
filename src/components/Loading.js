@@ -3,8 +3,10 @@ import ReactLoading from "react-loading";
 
 export default function Loading() {
   return (
-    <div>
-      <ReactLoading type="balls" color="#03fc4e" height={100} width={100} />
+    <div className="bar">
+      <ReactLoading className="icon-loading" type="balls" color="black"
+      height={150}
+      width={150} />
     </div>
   );
 }

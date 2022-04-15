@@ -14,28 +14,33 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 5000);
   });
 
   return (
-    // <>
-    //   {isLoading == true ? (
-    //     <Loading />
-    //   ) : (
-        <div id="colorlib-page">
-          <div id="container-wrap">
-            <Sidebar />
-            <div id="colorlib-main">
-              <Introduction />
-              <About />
-              <Skills />
-              <Projects />
-              <Contact />
-            </div>
+    <>
+      <div className="react-loading-icon">
+        {isLoading === true ? <Loading /> : null}
+      </div>
+      <div id="colorlib-page" style={{ display: isLoading ? "none" : "block" }}>
+        <div
+          id="container-wrap"
+          style={{ display: isLoading ? "none" : "block" }}
+        >
+          <Sidebar />
+          <div
+            id="colorlib-main"
+            style={{ display: isLoading ? "none" : "block" }}
+          >
+            <Introduction />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact />
           </div>
         </div>
-    //   )}
-    // </>
+      </div>
+    </>
   );
 }
 
