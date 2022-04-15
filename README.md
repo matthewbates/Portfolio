@@ -1,6 +1,8 @@
 <h1>https://matthew-bates-portfolio.herokuapp.com/</h1>
 
+
 <h3>You've reached my personal portfolio page! Please feel free to reach out to me with inquiries/collaboriations.</h3>
+
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
