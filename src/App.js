@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       {isLoading === true ? (
-        <div className="react-loading-icon">
+        <div className="loading-icon">
           {" "}
           <Loading />
         </div>

@@ -105,8 +105,14 @@ code {
   background-color: rgb(168, 51, 42);
 }
 
-.react-loading-icon {
+.loading-icon {
   display: flex;
   justify-content: center;
-  margin-top: 22rem;
+  margin-top: 23rem;
+  /* background: linear-gradient(to bottom right, #333333, #121212); */
+}
+
+.icon-loading-header {
+  text-align: center;
+  justify-content: center;
 }
