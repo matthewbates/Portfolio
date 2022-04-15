@@ -14,14 +14,18 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 50000);
   });
 
   return (
     <>
-      <div className="react-loading-icon">
-        {isLoading === true ? <Loading /> : null}
-      </div>
+      {isLoading === true ? (
+        <div className="react-loading-icon">
+          {" "}
+          <Loading />
+        </div>
+      ) : null}
+
       <div id="colorlib-page" style={{ display: isLoading ? "none" : "block" }}>
         <div
           id="container-wrap"

@@ -104,3 +104,9 @@ code {
   border-radius: 5px;
   background-color: rgb(168, 51, 42);
 }
+
+.react-loading-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 22rem;
+}
