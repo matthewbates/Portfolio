@@ -27,6 +27,7 @@ export default function Skills() {
                     {languages.map((language) => {
                       return (
                         <img
+                          key={language.id}
                           src={language.icon}
                           alt="icon-images"
                           width="60"
@@ -49,6 +50,7 @@ export default function Skills() {
                     {databases.map((database) => {
                       return (
                         <img
+                          key={database.id}
                           src={database.icon}
                           alt="icon-images"
                           width="60"
@@ -71,6 +73,7 @@ export default function Skills() {
                     {testing.map((test) => {
                       return (
                         <img
+                          key={test.id}
                           src={test.icon}
                           alt="icon-images"
                           width="50"

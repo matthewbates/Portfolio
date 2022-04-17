@@ -35,17 +35,6 @@ code {
   display: flex;
 }
 
-/* form {
-  border: 1px solid lightgray;
-  border-radius: 10px;
-  padding: 20px;
-} */
-
-.dark {
-  color: #dcdcdc;
-  background-color: #292929;
-}
-
 .slider.round {
   border-radius: 34px;
 }

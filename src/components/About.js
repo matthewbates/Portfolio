@@ -23,7 +23,7 @@ export default function About() {
                       Having worked in corporate America for a handful of years,
                       I had many interactions with enterprise software
                       development. It became apparent that I had a passion for
-                      not only technology, buy also user design. Making things
+                      not only technology, but also user design. Making things
                       more accessable & setting new standards that could be used
                       across the world-wide-web is what drove me to get into the
                       field.

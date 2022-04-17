@@ -34,7 +34,6 @@ export default function Contact() {
   }
 
   return (
-    // <div className="contact-information">
     <section className="colorlib-work" data-section="contact">
       <div className="container">
         <div className="row">
@@ -42,7 +41,7 @@ export default function Contact() {
             <h2 className="text-center">Let's Get In Touch!</h2>
             <Form id="myForm" onSubmit={handleSubmit}>
               <div className="form-group">
-                <label className="icon-mail" for="email">
+                <label className="icon-mail" htmlFor="email">
                   Email address
                 </label>
                 <input
@@ -54,7 +53,7 @@ export default function Contact() {
                 />
               </div>
               <div className="form-group">
-                <label className="icon-user" for="name">
+                <label className="icon-user" htmlFor="name">
                   Name
                 </label>
                 <input
@@ -67,7 +66,7 @@ export default function Contact() {
               </div>
 
               <div className="form-group">
-                <label className="icon-message" for="message">
+                <label className="icon-message" htmlFor="message">
                   Message
                 </label>
                 <textarea
@@ -86,45 +85,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
-      {/* <h3>Let's Get In Touch!</h3>
-        <Form onSubmit={handleSubmit}>
-          <Form.Field
-            id="form-input-control-email"
-            control={Input}
-            label="Email"
-            name="user_email"
-            placeholder="Type your email here..."
-            required
-            icon="mail"
-            // className="icon-mail"
-            iconPosition="left"
-          />
-          <Form.Field
-            id="form-input-control-last-name"
-            control={Input}
-            label="Name"
-            name="user_name"
-            placeholder="Type your name here..."
-            required
-            icon="user circle"
-            iconPosition="left"
-            // className="icon-user"
-          />
-          <Form.Field
-            id="form-textarea-control-opinion"
-            control={TextArea}
-            label="Message"
-            name="user_message"
-            placeholder="Type your message here..."
-            required
-            // className="icon-message"
-          />
-          <Button label="Send Message" icon="send" color="green">
-            Send Message
-          </Button>
-        </Form> */}
     </section>
-    // </div>
   );
 }
