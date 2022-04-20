@@ -21,7 +21,7 @@ export default function About() {
                     </p>
                     <p>
                       Having worked in corporate America for a handful of years,
-                      I had many interactions with enterprise software
+                      I've had many interactions with enterprise software
                       development. It became apparent that I had a passion for
                       not only technology, but also user design. Making things
                       more accessable & setting new standards that could be used

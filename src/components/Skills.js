@@ -17,29 +17,6 @@ export default function Skills() {
           </div>
           <div className="row row-pt-md">
             <div className="col-md-4 animate-box">
-              <div className="services color-1">
-                <span className="icon text-center">
-                  <i className="icon-data" />
-                </span>
-                <div className="desc text-center">
-                  <div>
-                    <h3>Languages & Frameworks</h3>
-                    {languages.map((language) => {
-                      return (
-                        <img
-                          key={language.id}
-                          src={language.icon}
-                          alt="icon-images"
-                          width="60"
-                          height="50"
-                        />
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 animate-box">
               <div className="services color-2">
                 <span className="icon text-center">
                   <i className="icon-database" />
@@ -52,6 +29,29 @@ export default function Skills() {
                         <img
                           key={database.id}
                           src={database.icon}
+                          alt="icon-images"
+                          width="60"
+                          height="50"
+                        />
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 animate-box">
+              <div className="services color-1">
+                <span className="icon text-center">
+                  <i className="icon-data" />
+                </span>
+                <div className="desc text-center">
+                  <div>
+                    <h3>Languages & Frameworks</h3>
+                    {languages.map((language) => {
+                      return (
+                        <img
+                          key={language.id}
+                          src={language.icon}
                           alt="icon-images"
                           width="60"
                           height="50"
