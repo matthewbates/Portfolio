@@ -37,13 +37,15 @@ export default function Projects() {
                           <a
                             href="https://github.com/matthewbates/Mountain-Buddy"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Code
                           </a>{" "}
                           |{" "}
                           <a
-                            href="https://vimeo.com/manage/videos/695889451/21156ef4dd"
+                            href="https://vimeo.com/695889451/21156ef4dd"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Demo
                           </a>
@@ -75,13 +77,15 @@ export default function Projects() {
                           <a
                             href="https://github.com/matthewbates/Brewery-Discovery"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Code
                           </a>{" "}
                           |{" "}
                           <a
-                            href="https://vimeo.com/manage/videos/695879205"
+                            href="https://vimeo.com/695879205/c181dc0706"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Demo
                           </a>
@@ -113,13 +117,15 @@ export default function Projects() {
                           <a
                             href="https://github.com/matthewbates/SkiBum"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Code
                           </a>{" "}
                           |{" "}
                           <a
-                            href="https://vimeo.com/manage/videos/695859712"
+                            href="https://vimeo.com/695859712/81d9db0e0b"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Demo
                           </a>
@@ -151,13 +157,15 @@ export default function Projects() {
                           <a
                             href="https://github.com/matthewbates/Pokedex"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Code
                           </a>{" "}
                           |{" "}
                           <a
-                            href="https://vimeo.com/manage/videos/695859712"
+                            href="https://vimeo.com/695844138/aef213f1d9"
                             style={{ color: "white" }}
+                            target="_blank"
                           >
                             Demo
                           </a>

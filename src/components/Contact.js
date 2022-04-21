@@ -34,12 +34,12 @@ export default function Contact() {
   }
 
   return (
-    <section className="colorlib-work" data-section="contact">
+    <section className="form-container colorlib-work" data-section="contact">
       <div className="container">
-        <div className="row">
+        <div className="form-row">
           <div className="col align-self-center">
             <h2 className="text-center">Let's Get In Touch!</h2>
-            <Form id="myForm" onSubmit={handleSubmit}>
+            <Form className="form-group" id="myForm" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label className="icon-mail" htmlFor="email">
                   Email address
@@ -49,7 +49,6 @@ export default function Contact() {
                   name="user_email"
                   className="form-control icon-mail"
                   id="email"
-                  placeholder="enter your email"
                 />
               </div>
               <div className="form-group">
@@ -61,7 +60,6 @@ export default function Contact() {
                   name="user_name"
                   className="form-control icon-user"
                   id="name"
-                  placeholder="enter your name"
                 />
               </div>
 
@@ -74,7 +72,6 @@ export default function Contact() {
                   id="message"
                   name="user_message"
                   rows="5"
-                  placeholder="your message"
                 ></textarea>
               </div>
 

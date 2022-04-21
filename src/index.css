@@ -58,6 +58,13 @@ code {
   width: 60%;
 }
 
+#myForm {
+  width: 50%;
+  align-items: center;
+  /* text-align: center; */
+  margin: auto;
+}
+
 #email {
   filter: drop-shadow(-12px 14px 3px #ccc);
   text-align: center;
@@ -105,3 +112,4 @@ code {
   text-align: center;
   justify-content: center;
 }
+

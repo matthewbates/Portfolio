@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <div>
       <section className="colorlib-about" data-section="skills">
-        <div className="colorlib-narrow-content">
+        <div className="skills-height colorlib-narrow-content">
           <div className="row">
             <div className="col-md-12">
               <h2 className="colorlib-heading">
