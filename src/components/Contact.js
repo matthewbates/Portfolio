@@ -42,7 +42,7 @@ export default function Contact() {
             <Form className="form-group" id="myForm" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label className="icon-mail" htmlFor="email">
-                  Email address
+                  Email
                 </label>
                 <input
                   type="email"

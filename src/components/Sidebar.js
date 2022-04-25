@@ -79,40 +79,39 @@ export default function Sidebar() {
                   </a>
                 </li>
               </ul>
+              <br/>
+              <ul>
+                <SocialIcon
+                  url="https://www.linkedin.com/in/matthew-bates-71b7bb79/"
+                  target="_blank"
+                />{" "}
+                <a
+                  href="https://codewars.com/users/matthewhcbates"
+                  target="_blank"
+                  className="codewars"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="nav-icon-codewars"
+                    src={codeWars}
+                    alt="icon"
+                  />
+                </a>
+                <SocialIcon
+                  url="https://github.com/matthewbates"
+                  target="_blank"
+                />{" "}
+                <a
+                  href="https://medium.com/@matthewhcbates"
+                  target="_blank"
+                  className="nav-icon"
+                  rel="noopener noreferrer"
+                >
+                  <img className="nav-icon" src={medium} alt="icon" />
+                </a>
+              </ul>
             </div>
           </nav>
-          <nav id="colorlib-main-menu">
-            <ul>
-              <SocialIcon
-                url="https://www.linkedin.com/in/matthew-bates-71b7bb79/"
-                target="_blank"
-              />{" "}
-              <a
-                href="https://codewars.com/users/matthewhcbates"
-                target="_blank"
-                className="codewars"
-                rel="noopener noreferrer"
-              >
-                <img className="nav-icon-codewars" src={codeWars} alt="icon" />
-              </a>
-              <SocialIcon
-                url="https://github.com/matthewbates"
-                target="_blank"
-              />{" "}
-              <a
-                href="https://medium.com/@matthewhcbates"
-                target="_blank"
-                className="nav-icon"
-                rel="noopener noreferrer"
-              >
-                <img className="nav-icon" src={medium} alt="icon" />
-              </a>
-            </ul>
-            <ul>
-              <br />
-            </ul>
-          </nav>
-          <div className="colorlib-footer"></div>
         </aside>
       </div>
     </div>

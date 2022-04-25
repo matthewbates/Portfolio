@@ -52,35 +52,41 @@ code {
   flex-direction: column;
 }
 
+.social-icon-buttons {
+  position: fixed;
+  align-items: center;
+  text-align: center;
+}
+
 .container {
   /* filter: drop-shadow(-12px 14px 3px #ccc); */
   text-align: center;
-  width: 60%;
+  width: 80%;
 }
 
 #myForm {
-  width: 50%;
+  max-width: max-content;
   align-items: center;
-  /* text-align: center; */
   margin: auto;
+  /* flex: auto; */
 }
 
 #email {
   filter: drop-shadow(-12px 14px 3px #ccc);
   text-align: center;
-  width: 100%;
+  /* width: 80%; */
 }
 
 #name {
   filter: drop-shadow(-12px 14px 3px #ccc);
   text-align: center;
-  width: 100%;
+  /* width: 80%; */
 }
 
 #message {
   filter: drop-shadow(-12px 14px 3px #ccc);
   text-align: center;
-  width: 100%;
+  /* width: 80%; */
 }
 
 .nav-icon {
@@ -112,4 +118,3 @@ code {
   text-align: center;
   justify-content: center;
 }
-

@@ -17,13 +17,13 @@ export default function About() {
                       <u>About Me</u>
                     </h2>
                     <p>
-                      I'm a software engineer residing in Manitou Springs, CO.
+                      I'm a full-stack software developer & content creator residing in Manitou Springs, CO.
                     </p>
                     <p>
                       Having worked in corporate America for a handful of years,
                       I've had many interactions with enterprise software
                       development. It became apparent that I had a passion for
-                      not only technology, but also user design. Making things
+                      not only technology, but also user design/U.I. Making things
                       more accessable & setting new standards that could be used
                       across the world-wide-web is what drove me to get into the
                       field.
