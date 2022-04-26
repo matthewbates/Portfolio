@@ -89,6 +89,11 @@ code {
   /* width: 80%; */
 }
 
+.social-media-icons {
+  align-items: center;
+  text-align: center;
+}
+
 .nav-icon {
   opacity: 1;
   transform: translate(0px, 0px);
