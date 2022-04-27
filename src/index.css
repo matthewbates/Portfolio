@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+#colorlib-aside {
+  overflow: hidden;
+  /* height: auto;
+  margin-top: auto; */
+}
+
+.text-center {
+  vertical-align: auto;
+  margin-top: auto;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -30,9 +41,8 @@ code {
   margin-left: 5rem;
 }
 
-.js-fullheight {
-  overflow: scroll;
-  overflow-y: hidden;
+.links-padding {
+  margin-bottom: 10px;
 }
 
 .contact-information {
