@@ -26,18 +26,10 @@ code {
 
 .sidebar-info {
   text-align: center;
-  margin-top: inherit;
-}
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  background-color: black;
+  align-items: center;
+  /* display: table-cell; */
+  position: relative;
+  margin-top: flex;
 }
 
 .image-icons {
@@ -82,7 +74,8 @@ code {
 .container {
   /* filter: drop-shadow(-12px 14px 3px #ccc); */
   text-align: center;
-  width: 80%;
+  /* padding: 150px; */
+  width: 100%;
 }
 
 #myForm {
@@ -95,7 +88,6 @@ code {
 #email {
   filter: drop-shadow(-12px 14px 3px #ccc);
   text-align: center;
-  /* width: 80%; */
 }
 
 #name {
@@ -107,7 +99,11 @@ code {
 #message {
   filter: drop-shadow(-12px 14px 3px #ccc);
   text-align: center;
-  /* width: 80%; */
+}
+
+.align-self-center {
+  text-align: center;
+  vertical-align: center;
 }
 
 .social-media-icons {
