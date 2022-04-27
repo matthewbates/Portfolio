@@ -15,7 +15,7 @@ export default function Projects() {
               </h2>
             </div>
           </div>
-          <div className="row">
+          <div className="row align-project-text">
             <div
               className="col-md-4 animate-box"
               data-animate-effect="fadeInLeft"

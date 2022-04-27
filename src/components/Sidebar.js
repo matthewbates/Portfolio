@@ -25,9 +25,9 @@ export default function Sidebar() {
         >
           <i />
         </nav>
-        <aside id="colorlib-aside" className="border js-fullheight">
-          <div className="text-center">
-
+        {/* className="border js-fullheight" */}
+        <aside id="colorlib-aside" className="sidebar-styling">
+          <div className="sidebar-info">
             <div
               className="author-img"
               placeholder="place image"

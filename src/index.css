@@ -14,13 +14,19 @@ code {
 
 #colorlib-aside {
   overflow: hidden;
-  /* height: auto;
-  margin-top: auto; */
 }
 
-.text-center {
-  vertical-align: auto;
-  margin-top: auto;
+.align-project-text {
+  justify-content: center;
+}
+
+.sidebar-styling {
+  min-height: 100%;
+}
+
+.sidebar-info {
+  text-align: center;
+  margin-top: 40%;
 }
 
 .sidebar {
