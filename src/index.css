@@ -30,6 +30,11 @@ code {
   margin-left: 5rem;
 }
 
+.js-fullheight {
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
 .contact-information {
   text-align: center;
   display: flex;
