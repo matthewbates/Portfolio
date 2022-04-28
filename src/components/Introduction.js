@@ -19,7 +19,7 @@ export default function Introduction() {
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://drive.google.com/file/d/1OAx1iPnpbJp0nM6QProX5dXmlWWUsIth/view?usp=sharing"
+                              href="https://drive.google.com/file/d/1CuD-t8VjpNryrv0KKsj89_P0Gbu7tanV/view"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

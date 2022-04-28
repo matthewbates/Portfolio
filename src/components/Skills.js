@@ -91,3 +91,19 @@ export default function Skills() {
     </div>
   );
 }
+
+
+const countSheep = (num) => {
+  // = is a single assignment to an empty string
+  let result = "";
+// i is assigned to 1 at the start of the loop
+// <= num comparisions grows in linear proportion
+// ++ is both an addition && assignment
+  for (i = 1; i <= num; i++) {
+    // += is also an addition && assignment
+    result += String(i) + " ...sheep"
+  }
+  return result;
+}
+
+W
