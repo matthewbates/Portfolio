@@ -39,7 +39,7 @@ export default function Contact() {
         {/* <div className="form-row"> */}
           <div className="col align-self-center">
             <h2 className="text-center">Contact</h2>
-            <Form className="form-group" id="myForm" onSubmit={handleSubmit}>
+            <Form id="myForm" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label className="icon-mail" htmlFor="email">
                   Email
@@ -48,7 +48,7 @@ export default function Contact() {
                   type="email"
                   name="user_email"
                   className="form-control icon-mail"
-                  id="email"
+                  id="form-labels"
                 />
               </div>
               <div className="form-group">
@@ -59,7 +59,7 @@ export default function Contact() {
                   type="name"
                   name="user_name"
                   className="form-control icon-user"
-                  id="name"
+                  id="form-labels"
                 />
               </div>
 
@@ -69,7 +69,7 @@ export default function Contact() {
                 </label>
                 <textarea
                   className="form-control icon-message"
-                  id="message"
+                  id="form-labels"
                   name="user_message"
                   rows="5"
                 ></textarea>
