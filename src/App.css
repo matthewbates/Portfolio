@@ -58,3 +58,13 @@
 .intro-font-size {
   font-size: 600px;
 }
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-links {
+  font-weight: bold;
+  color: white;
+  
+}

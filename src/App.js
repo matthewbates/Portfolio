@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import React, { useState, useEffect, useRef } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";

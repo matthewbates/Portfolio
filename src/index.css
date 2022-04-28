@@ -82,23 +82,22 @@ code {
   max-width: max-content;
   align-items: center;
   margin: auto;
-  /* flex: auto; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-#email {
-  filter: drop-shadow(-12px 14px 3px #ccc);
-  text-align: center;
-}
-
-#name {
-  filter: drop-shadow(-12px 14px 3px #ccc);
-  text-align: center;
-  /* width: 80%; */
-}
-
-#message {
-  filter: drop-shadow(-12px 14px 3px #ccc);
-  text-align: center;
+#form-labels {
+  text-align: left;
+  font-weight: bold;
 }
 
 .align-self-center {
