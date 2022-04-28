@@ -1,7 +1,7 @@
 import React from "react";
-import { languages } from "./languages & skills/languages";
-import { databases } from "./languages & skills/databases";
-import { testing } from "./languages & skills/markups";
+import { languages } from "./languages, skills, projects/languages";
+import { databases } from "./languages, skills, projects/databases";
+import { testing } from "./languages, skills, projects/markups";
 
 export default function Skills() {
   return (

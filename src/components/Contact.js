@@ -35,10 +35,10 @@ export default function Contact() {
 
   return (
     <section className="form-container colorlib-work" data-section="contact">
-      <div className="container">
-        <div className="form-row">
+      {/* <div className="container"> */}
+        {/* <div className="form-row"> */}
           <div className="col align-self-center">
-            <h2 className="text-center">Let's Get In Touch!</h2>
+            <h2 className="text-center">Contact</h2>
             <Form className="form-group" id="myForm" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label className="icon-mail" htmlFor="email">
@@ -80,8 +80,8 @@ export default function Contact() {
               </Button>
             </Form>
           </div>
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </section>
   );
 }

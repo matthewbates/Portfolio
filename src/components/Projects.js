@@ -1,4 +1,5 @@
 import React from "react";
+import { projects } from "./languages, skills, projects/projects";
 
 export default function Projects() {
   return (
@@ -24,7 +25,7 @@ export default function Projects() {
                 className="project"
                 style={{ backgroundImage: "url(images/mountainbuddy.png)" }}
               >
-                <div className="desc">
+                <div className="desc con text-center">
                   <div className="con text-center">
                     <h3>
                       <b>
