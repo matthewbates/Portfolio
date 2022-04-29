@@ -35,53 +35,48 @@ export default function Contact() {
 
   return (
     <section className="form-container colorlib-work" data-section="contact">
-      {/* <div className="container"> */}
-        {/* <div className="form-row"> */}
-          <div className="col align-self-center">
-            <h2 className="text-center">Contact</h2>
-            <Form id="myForm" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label className="icon-mail" htmlFor="email">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  name="user_email"
-                  className="form-control icon-mail"
-                  id="form-labels"
-                />
-              </div>
-              <div className="form-group">
-                <label className="icon-user" htmlFor="name">
-                  Name
-                </label>
-                <input
-                  type="name"
-                  name="user_name"
-                  className="form-control icon-user"
-                  id="form-labels"
-                />
-              </div>
-
-              <div className="form-group">
-                <label className="icon-message" htmlFor="message">
-                  Message
-                </label>
-                <textarea
-                  className="form-control icon-message"
-                  id="form-labels"
-                  name="user_message"
-                  rows="5"
-                ></textarea>
-              </div>
-
-              <Button type="submit" className="btn btn-primary">
-                Submit
-              </Button>
-            </Form>
+      <div className="col align-self-center">
+        <Form id="myForm" onSubmit={handleSubmit}>
+          <h2 className="text-center">Contact</h2>
+          <div className="form-group">
+            <label className="icon-mail" htmlFor="email">
+              Email
+            </label>
+            <input
+              type="email"
+              name="user_email"
+              className="form-control icon-mail"
+              id="form-labels"
+            />
           </div>
-        {/* </div> */}
-      {/* </div> */}
+          <div className="form-group">
+            <label className="icon-user" htmlFor="name">
+              Name
+            </label>
+            <input
+              type="name"
+              name="user_name"
+              className="form-control icon-user"
+              id="form-labels"
+            />
+          </div>
+          <div className="form-group">
+            <label className="icon-message" htmlFor="message">
+              Message
+            </label>
+            <textarea
+              className="form-control icon-message"
+              id="form-labels"
+              name="user_message"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <Button type="submit" className="btn btn-primary">
+            Submit
+          </Button>
+        </Form>
+      </div>
     </section>
   );
 }
