@@ -8,13 +8,12 @@ export default function Skills() {
     <div>
       <section className="colorlib-about" data-section="skills">
         <div className="skills-height colorlib-narrow-content">
-          <div className="row">
-            <div className="col-md-12">
+            {/* classname=col-md-12 */}
+            {/* <div> */}
               <h2 className="colorlib-heading">
                 <u>Technical Skills</u>
               </h2>
-            </div>
-          </div>
+            {/* </div> */}
           <div className="row row-pt-md">
             <div className="col-md-4 animate-box">
               <div className="services color-2">
