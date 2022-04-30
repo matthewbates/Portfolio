@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+
+const resumeURL =
+  "https://drive.google.com/file/d/1CuD-t8VjpNryrv0KKsj89_P0Gbu7tanV/view";
+const blogURL = "https://medium.com/@matthewhcbates";
 
 export default function Introduction() {
+  const [resumeIsOpen, setResumeIsOpen] = useState(false);
+  const [blogIsOpen, setBlogIsOpen] = useState(false);
+
+  function handleResumeClick() {
+    setResumeIsOpen((resumeIsOpen) => !resumeIsOpen);
+  }
+
+  function handleBlogClick() {
+    setBlogIsOpen((blogIsOpen) => !blogIsOpen);
+  }
+
   return (
     <div>
       <section id="colorlib-hero" className="js-fullheight" data-section="home">
