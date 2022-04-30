@@ -21,7 +21,7 @@ export default function Introduction() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          View CV
+                          View Resume
                         </a>{" "}
                         <a
                           className="btn btn-primary btn-learn"
@@ -29,7 +29,7 @@ export default function Introduction() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          View Recent Blog Posts
+                          Recent Publications
                         </a>
                       </p>
                     </div>
