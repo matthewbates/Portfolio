@@ -6,13 +6,13 @@ export default function About() {
     <div>
       <section className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
-          <div className="row js-fullheight">
+          <div className="row">
             <div className="col-md-12">
               <div
                 className="row row-bottom-padded-sm animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div className="col-md-12 js-fullheight">
+                <div className="col-md-12">
                   <h2 className="colorlib-heading">
                     <u>About Me</u>
                   </h2>

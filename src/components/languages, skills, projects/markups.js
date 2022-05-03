@@ -5,12 +5,12 @@ export const testing = [
     url: "https://postman.com",
     icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
   },
-  {
-    id: 2,
-    name: "Docker",
-    url: "https://www.docker.com/",
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-  },
+  // {
+  //   id: 2,
+  //   name: "Docker",
+  //   url: "https://www.docker.com/",
+  //   icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+  // },
   {
     id: 3,
     name: "Jenkins",

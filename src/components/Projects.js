@@ -4,7 +4,7 @@ import { projects } from "./languages, skills, projects/projects";
 export default function Projects() {
   return (
     <div>
-      <section className="colorlib-work" data-section="projects">
+      <section className="colorlib-work js-fullheight" data-section="projects">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div

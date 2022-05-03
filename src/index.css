@@ -12,6 +12,19 @@ code {
     monospace;
 }
 
+/* this was colorlib-page */
+.main-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* this was container-wrap */
+.main-container-wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 #colorlib-aside {
   overflow: hidden;
 }
@@ -131,11 +144,33 @@ code {
 .loading-icon {
   display: flex;
   justify-content: center;
-  margin-top: 23rem;
+  margin-top: 20%;
+  align-items: center;
   /* background: linear-gradient(to bottom right, #333333, #121212); */
 }
 
 .icon-loading-header {
   text-align: center;
   justify-content: center;
+}
+
+.text-center {
+  text-decoration: underline;
+}
+
+.about-me-font {
+  font-size: large;
+  height: 50%;
+  font-weight: 500;
+  font-family: "American Typewriter, serif";
+  margin: 1rem;
+}
+
+.project-link-color {
+  color: white;
+}
+
+.ci-cd {
+  justify-content: center;
+  
 }

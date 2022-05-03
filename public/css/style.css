@@ -80,7 +80,7 @@ figure {
   position: fixed;
   overflow: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #f2f3f8;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -179,7 +179,7 @@ figure {
               -ms-transform: scaleX(1);
               -o-transform: scaleX(1);
               transform: scaleX(1); }
-        #colorlib-aside #colorlib-main-menu ul li.active a {
+        /* #colorlib-aside #colorlib-main-menu ul li.active a {
           color: #2c98f0; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
@@ -187,7 +187,7 @@ figure {
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
-            transform: scaleX(1); }
+            transform: scaleX(1); } */
   #colorlib-aside .colorlib-footer {
     font-size: 15px;
     text-align: center;
@@ -233,7 +233,7 @@ figure {
       padding: 0 1em; } }
 
 #colorlib-hero {
-  min-height: 500px;
+  min-height: 300px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -410,7 +410,7 @@ body.offcanvas {
   margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   line-height: 1.8;
   position: relative; }
   .colorlib-heading span {

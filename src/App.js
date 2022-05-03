@@ -1,6 +1,6 @@
 import "./App.css";
 import "./index.css";
-import React, { useState, useEffect, useRef } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Introduction from "./components/Introduction";
@@ -15,28 +15,19 @@ const lastName = "Bates";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [isVisible, setIsVisible] = useState(true);
-  const domRef = useRef();
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 3000);
-  // });
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 50000);
+  });
 
   useEffect(() => {
     document.title = firstName + " " + lastName;
   });
 
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver((entries) => {
-  //     entries.forEach((entry) => setIsVisible(entry.isIntersecting));
-  //   });
-  //   observer.observe(domRef.current);
-  //   return () => observer.unobserve(domRef.current);
-  // }, []);
-
   return (
-    <>
+    <Fragment>
       {/* {isLoading == true ? (
         <div className="loading-icon">
           <Loading />
@@ -44,9 +35,9 @@ function App() {
       ) : null} */}
 
       {/* <div style={{ display: isLoading ? "none" : "block" }}> */}
-      <div id="colorlib-page">
+      <div id="main-page">
         <div
-          id="container-wrap"
+          id="main-container"
           // style={{ display: isLoading ? "none" : "block" }}
         >
           <Sidebar />
@@ -63,7 +54,7 @@ function App() {
         </div>
       </div>
       {/* </div> */}
-    </>
+    </Fragment>
   );
 }
 
