@@ -13,7 +13,7 @@ export default function Sidebar() {
   }
 
   return (
-    <div>
+
       <div>
         <nav
           href="#navbar"
@@ -136,6 +136,5 @@ export default function Sidebar() {
           </div>
         </aside>
       </div>
-    </div>
   );
 }

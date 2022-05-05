@@ -21,7 +21,7 @@ export default function Skills() {
           <div className="row row-pt-md">
             <div className="col-md-6 animate-box">
               <div className="services color-1">
-                <span className="icon text-center">
+                <span className="icon center-icon">
                   <i className="icon-data" />
                 </span>
                 <div className="desc text-center">
@@ -44,7 +44,7 @@ export default function Skills() {
             </div>
             <div className="col-md-6 animate-box ci-cd">
               <div className="services color-4 ci-cd">
-                <span className="icon text-center">
+                <span className="icon center-icon">
                   <i className="icon-globe2" />
                 </span>
                 <div className="desc text-center">
@@ -67,7 +67,7 @@ export default function Skills() {
             </div>
             <div className="col-md-6 animate-box">
               <div className="services color-2">
-                <span className="icon text-center">
+                <span className="icon center-icon">
                   <i className="icon-database" />
                 </span>
                 <div className="desc text-center">
@@ -91,7 +91,7 @@ export default function Skills() {
             </div>
             <div className="col-md-6 animate-box ci-cd">
               <div className="services color-3 ci-cd">
-                <span className="icon text-center">
+                <span className="icon center-icon">
                   <i className="icon-lightbulb" />
                 </span>
                 <div className="desc text-center">

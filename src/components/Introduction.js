@@ -18,15 +18,13 @@ export default function Introduction() {
 
   return (
     <div>
-      <section id="colorlib-hero" className="js-fullheight" data-section="home">
+      <section id="colorlib-hero" data-section="home">
         <div className="flexslider js-fullheight">
           <ul className="slides">
             <li>
-              <div className="overlay" />
               <div className="col-sm-12 col-xs-12 js-fullheight slider-text">
                 <div className="slider-text-inner js-fullheight">
-                  <div className="desc">
-                    <div>
+                    <div align-intro-text>
                       <h1>Hi, I'm Matthew</h1>
                       <h4>A creative, passionate technologist.</h4>
                       <p>
@@ -48,7 +46,6 @@ export default function Introduction() {
                         </a>
                       </p>
                     </div>
-                  </div>
                 </div>
               </div>
             </li>

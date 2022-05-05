@@ -158,6 +158,10 @@ code {
   text-decoration: underline;
 }
 
+.center-icon {
+  text-align: center;
+}
+
 .about-me-font {
   font-size: large;
   height: 50%;
@@ -166,11 +170,27 @@ code {
   margin: 1rem;
 }
 
-.project-link-color {
-  color: white;
-}
-
 .ci-cd {
   justify-content: center;
-  
+}
+
+#colorlib-hero {
+  /* background-color: blue; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: -15px;
+}
+
+.form-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.project-text {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-top: 7.5rem;
 }
