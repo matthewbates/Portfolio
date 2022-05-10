@@ -24,7 +24,7 @@ export default function Introduction() {
             <li>
               <div className="col-sm-12 col-xs-12 js-fullheight slider-text">
                 <div className="slider-text-inner js-fullheight">
-                    <div align-intro-text>
+                    <div>
                       <h1>Hi, I'm Matthew</h1>
                       <h4>A creative, passionate technologist.</h4>
                       <p>

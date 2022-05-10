@@ -16,6 +16,7 @@ export default function Projects() {
               </h2>
             </div>
           </div>
+          {/* start iteration here */}
           <div className="row align-project-text">
             <div
               className="col-md-4 animate-box"
@@ -179,6 +180,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
+            {/* end iteration here */}
           </div>
         </div>
       </section>
