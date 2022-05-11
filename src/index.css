@@ -40,9 +40,9 @@ code {
 .sidebar-info {
   text-align: center;
   align-items: center;
-  /* display: table-cell; */
   position: relative;
-  margin-top: flex;
+  margin-top: 8rem;
+  
 }
 
 .image-icons {
@@ -152,6 +152,10 @@ code {
   margin-top: 20%;
   align-items: center;
   /* background: linear-gradient(to bottom right, #333333, #121212); */
+}
+
+.flexslider {
+  min-height:100%;
 }
 
 .icon-loading-header {
