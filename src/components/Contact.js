@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import { Form, Input, TextArea, Button } from "semantic-ui-react";
+import { Form, Button } from "semantic-ui-react";
 import swal from "sweetalert2";
 
 const templateParams = {
